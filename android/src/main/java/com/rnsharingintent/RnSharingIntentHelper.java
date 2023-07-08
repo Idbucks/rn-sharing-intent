@@ -18,11 +18,11 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class RNSharingIntentHelper {
+public class RnSharingIntentHelper {
 
   private Context context;
 
-  public RNSharingIntentHelper(Application context){
+  public RnSharingIntentHelper(Application context){
     this.context = context;
   }
 

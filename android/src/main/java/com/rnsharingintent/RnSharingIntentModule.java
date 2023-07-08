@@ -1,4 +1,4 @@
-package com.reactnativereceivesharingintent;
+package com.rnsharingintent;
 
 import android.app.Activity;
 import android.app.Application;
@@ -17,13 +17,13 @@ public class RnSharingIntentModule extends ReactContextBaseJavaModule {
   public final String Log_Tag = "ReceiveSharingIntent";
 
   private final ReactApplicationContext reactContext;
-  private RNSharingIntentHelper rnSharingIntentHelper;
+  private RnSharingIntentHelper rnSharingIntentHelper;
 
   public RnSharingIntentModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
     Application applicationContext = (Application) reactContext.getApplicationContext();
-    rnSharingIntentHelper = new RNSharingIntentHelper(applicationContext);
+    rnSharingIntentHelper = new RnSharingIntentHelper(applicationContext);
   }
 
 

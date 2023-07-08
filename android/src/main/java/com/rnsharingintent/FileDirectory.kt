@@ -1,4 +1,4 @@
-package com.reactnativereceivesharingintent;
+package com.rnsharingintent;
 
 import android.content.ContentUris
 import android.content.Context
