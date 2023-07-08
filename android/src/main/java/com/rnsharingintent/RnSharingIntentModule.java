@@ -14,7 +14,7 @@ import com.facebook.react.bridge.ReactMethod;
 
 
 public class RnSharingIntentModule extends ReactContextBaseJavaModule {
-  public final String Log_Tag = "ReceiveSharingIntent";
+  public final String Log_Tag = "RnSharingIntent";
 
   private final ReactApplicationContext reactContext;
   private RnSharingIntentHelper rnSharingIntentHelper;
@@ -55,6 +55,6 @@ public class RnSharingIntentModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "ReceiveSharingIntent";
+    return "RnSharingIntent";
   }
 }
