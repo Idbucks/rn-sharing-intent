@@ -1,22 +1,41 @@
-# react-native-rn-sharing-intent
+# rn-sharing-intent
 
-Sharing intent
+The rn-share-intent library is a simple and effective solution for enabling users to easily share content from their gallery or other application to your app on both Android and iOS platforms. By leveraging native share intents, this library opens the standard share chooser of the operating system, allowing users to share media seamlessly.
 
 ## Installation
 
 ```sh
-npm install react-native-rn-sharing-intent
+npm install rn-share-intent --save
+```
+
+or
+
+```sh
+yarn add rn-share-intent
+```
+
+## Platform-specific Considerations
+# Android
+Make sure to add the necessary permissions in your AndroidManifest.xml file to allow sharing:
+
+```xlm
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
 
 ## Usage
 
+#Importing the module
+
 ```js
-import { multiply } from 'react-native-rn-sharing-intent';
-
-// ...
-
-const result = await multiply(3, 7);
+import ShareIntent from 'rn-share-intent';
 ```
+
+#Method
+
+getRecevedFiles()
+clearReceivedFiles()
+clearFileNames()
 
 ## Contributing
 
